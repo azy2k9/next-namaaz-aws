@@ -2,7 +2,7 @@
   "name": "next-namaaz-aws",
   "version": "0.1.0",
   "bin": {
-    "next-namaaz-aws": "bin/next-namaaz-aws.js"
+    "next-namaaz-aws": "bin/stack.js"
   },
   "scripts": {
     "build": "tsc",

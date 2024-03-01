@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { NextNamaazAwsStack } from '../lib/next-namaaz-aws-stack';
+import { NextNamaazAwsStack } from '../bin/stack';
 
 const app = new cdk.App();
 new NextNamaazAwsStack(app, 'NextNamaazAwsStack', {
